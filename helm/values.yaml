@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: 696960135893.dkr.ecr.eu-west-1.amazonaws.com/erp-wallet
-  tag: 'latest'
+  tag: f3ef050731f3789b4984db0aced24fd7b3c365c6
   pullPolicy: Always
 
 service:
