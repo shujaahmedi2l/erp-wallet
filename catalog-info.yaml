@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "erp-wallet"
+  description: "nothing special"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/erp-wallet"
+    argocd/app-name: "erp-wallet"
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://erp-wallet.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
